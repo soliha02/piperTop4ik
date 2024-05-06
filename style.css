@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    background: #2B3844;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 100px;
+}
+
+.btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+.inp {
+    width: 480px;
+    height: 56px;
+    background: #2B3844;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+
+.solmain {
+    background: #202C36;
+    width: 1440px;
+    height: 950px;
+    padding: 0 100px;
+}
+
+.flag1 {
+    width: 267px;
+    height: 336px;
+
+    background: #2B3844;
+    color: white;
+}
+
+.h9 {
+    padding: 20px;
+    line-height: 20px;
+}
+
+.solimain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;                     
+}
+.img1{
+    width: 100%;
+}
+
+@media (max-width:576px) {
+    header {
+        padding: 0 10px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}
